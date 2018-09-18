@@ -12,5 +12,5 @@ jdkPath=%JAVA_HOME%
 ```
 * Set your file mask
 ```batch
-for /r %targetDir% %%a in (<file_mask>) do (
+fileMask=*.properties
 ```
